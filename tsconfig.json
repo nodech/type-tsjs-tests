@@ -9,7 +9,8 @@
       "ES2020"
     ],
 
-    "noEmit": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
 
     "allowJs": true,
     "checkJs": true,
@@ -17,15 +18,10 @@
 
     "module": "commonjs",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
 
     "stripInternal": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": false,
-
-    "typeRoots": [
-      "node_modules/bts-type-deps/types"
-    ]
+    "noUnusedParameters": false
   }
 }
